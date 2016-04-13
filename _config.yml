@@ -1,28 +1,40 @@
-name: Shane Denherder
-favicon: null
-layout_spectrum: 0.13181852758862078
-typography_spectrum: 0.5289972287137061
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.1318185275886208
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.8999823
+  brandStrength: 0.3020682842470706
+  lightness: 0.781362
   brandColors:
     - '#71A7FE'
     - '#399AE7'
     - '#3B407C'
     - '#547AB1'
     - '#CEAFC0'
-  brandStrength: 0.30206828424707055
-  lightness: 0.7444804755505174
-  saturation: 0.8999823010526597
-  rhythmicContrast: 0.5172231639735401
-purpose: []
+  rhythmicContrast: 0.7096774
+typography_spectrum: 0.9032258
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Shane Denherder
